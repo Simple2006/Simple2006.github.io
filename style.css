@@ -92,6 +92,33 @@ a:link {
     padding: 0;
     color: #fff;
 }
+.container .checkmark
+{
+    position: absolute;
+    left: -200px;
+    top: -150px;
+}
+.container .mysection 
+{
+    position: relative;
+    left: 1000px;
+    top: -150px;
+    background-color: rgb(51, 42, 42);
+    width: 37%;
+    height: 800px;
+ }
+ .container .mysection .content h3
+ {
+    position: absolute;
+    left: 140px;
+ }
+ .container .mysection .content p
+ {
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    font-size: 20px;
+ }
 .line {
     position: relative;
     width: 16em;
@@ -103,11 +130,22 @@ a:link {
     white-space: nowrap;
     overflow: hidden;transform: translateY(-50%);
 }
+.anim2-typewriter {
+    animation: typewriter2 2s steps(50) 1s 1 normal both,
+    blinkTextCursor 500ms steps(20) infinite normal;
+}
 .anim-typewriter {
     animation: typewriter 4s steps(50) 1s 1 normal both,
     blinkTextCursor 500ms steps(20) infinite normal;
 }
-
+@keyframes typewriter2 {
+    from {
+          width: 0;
+    }
+    to {
+          width: 5em;
+    }
+}
 @keyframes typewriter {
     from {
           width: 0;
