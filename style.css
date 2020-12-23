@@ -158,3 +158,51 @@ a:link {
 {
     background: #9836be;
 }
+.container .box:nth-child(5) .icon
+{
+    background: #db0f8d;
+}
+.container .box:nth-child(5)
+{
+    background: #d13ab0;
+}
+.container .box:nth-child(6) .icon
+{
+    background: #0d7bd4;
+}
+.container .box:nth-child(6)
+{
+    background: #48b2db;
+}
+.container .box:nth-child(7) .icon
+{
+    background: #eb601f;
+}
+.container .box:nth-child(7)
+{
+    background: #e67b34;
+}
+.container .box:nth-child(8) .icon
+{
+    background: #ac0b0b;
+}
+.container .box:nth-child(8)
+{
+    background: #df3b3b;
+}
+.container .box:nth-child(9) .icon
+{
+    background: #ffd000;
+}
+.container .box:nth-child(9)
+{
+    background: #dbd809ad;
+}
+.container .box:nth-child(10) .icon
+{
+    background: #7e0cdb;
+}
+.container .box:nth-child(10)
+{
+    background: #9a67ddad;
+}
