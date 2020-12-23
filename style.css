@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-
 body
 {
     margin: 0;
@@ -21,7 +20,8 @@ a:link {
 .container .box
 {
     position: relative;
-    width: calc(400px - 30px);
+    width: calc(250px - 30px);
+    top: -10em;
     height: calc(300px - 30px);
     background: #000;
     float: left;
@@ -97,7 +97,7 @@ a:link {
     width: 16em;
     top: 2em;
     margin: 0 auto;
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    border-right: 2px solid rgba(73, 68, 68, 0.75);
     font-size: 180%;
     text-align: center;
     white-space: nowrap;
@@ -105,7 +105,7 @@ a:link {
 }
 .anim-typewriter {
     animation: typewriter 4s steps(50) 1s 1 normal both,
-    blinkTextCursor 500ms steps(50) infinite normal;
+    blinkTextCursor 500ms steps(20) infinite normal;
 }
 
 @keyframes typewriter {
@@ -119,7 +119,7 @@ a:link {
 
 @keyframes blinkTextCursor {
     from {
-          border-right-color: rgba(255, 255, 255, 0.75);
+          border-right-color: rgba(73, 68, 68, 0.75);
     }
     to {
           border-right-color: transparent;
