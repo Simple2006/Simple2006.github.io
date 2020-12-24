@@ -200,7 +200,7 @@ a:link {
     left: 20px;
     font-size: 40px;
     top: -20px;
-    font-family: 'Monospace', 'Lucida Console';
+    font-family: 'Lucida Console', 'Monospace';
     font-weight: 200px;
 }
 .container .mysection .content p
@@ -208,7 +208,7 @@ a:link {
     position: absolute;
     left: 20px;
     top: 70px;
-    font-family: 'Monospace', 'Lucida Console' ; 
+    font-family: 'Lucida Console', 'Monospace';
     font-size: 25px;
 }
 .container .mysection .content h4
@@ -217,7 +217,7 @@ a:link {
     left: 20px;
     font-size: 40px;
     top: 320px;
-    font-family: 'Monospace', 'Lucida Console';
+    font-family: 'Lucida Console', 'Monospace';
     font-weight: 200px;
 }
 .container .mysection .content ul
@@ -225,7 +225,7 @@ a:link {
     position: absolute;
     left: 10px;
     top: 400px;
-    font-family: 'Monospace', 'Lucida Console' ; 
+    font-family: 'Lucida Console', 'Monospace'; 
     font-size: 25px;
 }
 .container .mysection .content h1
@@ -233,7 +233,7 @@ a:link {
     position: absolute;
     left: 20px;
     top: 570px;
-    font-family: 'Monospace', 'Lucida Console' ; 
+    font-family: 'Lucida Console', 'Monospace';
     font-size: 40px;
     font-weight: 200px;
 }
@@ -242,7 +242,7 @@ a:link {
     position: absolute;
     left: 40px;
     top: 625px;
-    font-family: 'Monospace', 'Lucida Console' ; 
+    font-family: 'Lucida Console', 'Monospace'; 
     font-size: 25px;
 }
 /*
