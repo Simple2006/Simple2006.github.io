@@ -23,6 +23,7 @@ a:link {
     width: calc(250px - 30px);
     top: -10em;
     height: calc(300px - 30px);
+    left: -50px;
     background: #000;
     float: left;
     margin: 15px;
@@ -90,13 +91,53 @@ a:link {
 {
     margin: 0;
     padding: 0;
+    opacity: 0;
     color: #fff;
 }
-.container .checkmark
+.container .box:hover .content p
+{
+    top: 100px;
+    opacity: 1;
+    transition: all 1s;
+}
+.container .smallbox
+{
+    position: relative;
+    width: calc(100px - 30px);
+    top: -820px;
+    height: calc(100px - 30px);
+    left: 820px;
+    background: rgb(32, 31, 31);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: visible;
+    border-radius: 8px;
+}
+.container .object 
+{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(255, 251, 251);
+    border-radius: 50%;
+    display: inline-block;
+    left: 17px;
+    top: 18px;
+}
+.container .smallbox:hover
+{
+    clip-path: circle(75%);
+    border-radius:5px;
+    transform: scale(1.2);
+    background: rgb(0, 0, 0);
+}
+
+/*.container .checkmark
 {
     position: absolute;
-    left: -200px;
-    top: -150px;
+    left: 20px;
+    top: -200px;
 }
 .container .mysection 
 {
@@ -106,19 +147,46 @@ a:link {
     background-color: rgb(51, 42, 42);
     width: 37%;
     height: 800px;
- }
- .container .mysection .content h3
- {
+}
+.container .mysection .content h3
+{
     position: absolute;
-    left: 140px;
- }
- .container .mysection .content p
- {
+    left: 132px;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+.container .mysection .content p
+{
     position: absolute;
     left: 50px;
     top: 70px;
     font-size: 20px;
- }
+}
+.container .checkmarkTab
+{
+    position: relative;
+    top: -240px;
+    left: -246px;
+    background-color: rgb(51, 42, 42);
+}
+.container .checkmarkTab .content
+{
+    position: relative;
+    left: -1000px;
+}
+.checkmarkTab {
+    text-align:center;
+}
+
+.checkmarkTab input{
+    margin: 0px 0px 0px 0px;
+}
+
+.checkmarkTab label{
+     margin: 0px 20px 0px 3px;
+} 
+*/
 .line {
     position: relative;
     width: 16em;
