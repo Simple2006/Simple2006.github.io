@@ -3,7 +3,8 @@ body
 {
     margin: 0;
     padding: 0; 
-    width: 100%;
+    padding-right: 28%;
+    padding-left: 10%;
     font-family: sans-serif;
 }
 a:link {
@@ -144,13 +145,13 @@ a:link {
     transform: scale(1.2);
     background: rgb(0, 0, 0);
 }
-.container .smallbox1
+/*.container .smallbox1
 {
     position: fixed;
     width: calc(55px - 30px);
-    top: 635px;
+    top: 637px;
     height: calc(55px - 30px);
-    right: 410px;
+    right: 25%;
     background: rgb(32, 31, 31);
     float: left;
     margin: 15px;
@@ -178,6 +179,7 @@ a:link {
     transform: scale(1);
     background: rgb(0, 0, 0);
 }
+*/
 .container .checkmark
 {
     position: absolute;
@@ -193,10 +195,11 @@ a:link {
     width: 28%;
     height: 1000px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    padding-left: 1%;
+    padding-top: 1%;
 }
 .container .mysection .content h3
 {
-    position: absolute;
     left: 20px;
     font-size: 40px;
     top: -20px;
@@ -205,7 +208,6 @@ a:link {
 }
 .container .mysection .content p
 {
-    position: absolute;
     left: 20px;
     top: 70px;
     font-family: 'Lucida Console', 'Monospace';
@@ -213,7 +215,6 @@ a:link {
 }
 .container .mysection .content h4
 {
-    position: absolute;
     left: 20px;
     font-size: 40px;
     top: 320px;
@@ -222,7 +223,6 @@ a:link {
 }
 .container .mysection .content ul
 {
-    position: absolute;
     left: 10px;
     top: 400px;
     font-family: 'Lucida Console', 'Monospace'; 
@@ -230,7 +230,6 @@ a:link {
 }
 .container .mysection .content h1
 {
-    position: absolute;
     left: 20px;
     top: 570px;
     font-family: 'Lucida Console', 'Monospace';
@@ -239,7 +238,6 @@ a:link {
 }
 .container .mysection .content .seclist ul 
 {
-    position: absolute;
     left: 40px;
     top: 625px;
     font-family: 'Lucida Console', 'Monospace'; 
