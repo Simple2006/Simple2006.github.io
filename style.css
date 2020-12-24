@@ -32,6 +32,12 @@ a:link {
     overflow: hidden;
     border-radius: 10px;
 }
+.container .box:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 .container .box .icon
 {
     position: absolute;
