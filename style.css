@@ -9,7 +9,9 @@ body
 a:link {
     color: rgb(32, 99, 224);
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
 }
 .container
 {
@@ -31,11 +33,12 @@ a:link {
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 10px;
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 .container .box:hover
 {
     transform: scale(1.1);
-    transition: 0.5s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 .container .box .icon
@@ -189,6 +192,7 @@ a:link {
     background-color: rgb(53, 49, 49);
     width: 28%;
     height: 1000px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 .container .mysection .content h3
 {
