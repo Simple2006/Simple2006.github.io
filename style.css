@@ -14,8 +14,8 @@ a:link {
 .container
 {
     position: relative;
-    width: 1200px;
-    height: 300px;
+    max-width: 1200px;
+    max-height: 300px;
     margin: 240px auto;
 }
 .container .box
@@ -103,11 +103,11 @@ a:link {
 }
 .container .smallbox
 {
-    position: relative;
+    position: fixed;
     width: calc(100px - 30px);
-    top: -830px;
+    top: 0px;
     height: calc(100px - 30px);
-    right: -830px;
+    right: 0px;
     background: rgb(32, 31, 31);
     float: left;
     margin: 15px;
