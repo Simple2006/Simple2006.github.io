@@ -140,7 +140,6 @@ a:link {
 }
 .object:hover
 {
-<<<<<<< HEAD
     transform: scale(1.1);
     transition: 0.5s;
 }
@@ -154,16 +153,6 @@ a:link {
     right: 70px;
     top: 740px;
     border: none;
-=======
-    position: absolute;
-    height: 35px;
-    width: 35px;
-    background-color: rgb(255, 251, 251);
-    border-radius: 50%;
-    display: inline-block;
-    left: 7px;
-    top: 8px;
->>>>>>> 0cbce9f506ab9b2c7f561651ab15554233849882
     z-index: 100;
 }
 .object1:hover
