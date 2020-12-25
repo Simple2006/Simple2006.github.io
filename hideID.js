@@ -29,3 +29,26 @@ function showHard() {
         }
     }
 }
+
+function showSchool() {
+    const elements = document.getElementsByClassName("notSchool");
+    const hidden = document.getElementById("nothingFound");
+    const button = document.getElementById("mycheck");
+    var e;
+    var x;
+    var y = elements[0];
+    if (!y.length) {
+        hidden.style.display = "block";
+    }
+    if (y.style.display != "none") {
+        for (e of elements) {
+            e.style.display = "none";
+        }
+    }
+    else {
+        for (x of elements) {
+            x.style.display = "block";
+        }
+        hidden.style.display = "none";
+    }
+}
