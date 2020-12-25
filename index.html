@@ -9,8 +9,10 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     </head>
     <body style="background-color:rgb(73, 68, 68)">
+        <script src="hideID.js"></script>
+        <button class="hardButton" id="mycheck" onclick="showHard()">&#9776; Show Hard</button>
         <div class="container">
-            <div class="box" tag="commendable">
+            <div class="box" id="commendable">
                 <div class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
                 <div class="content">
                     <a href="https://github.com/Simple2006/DiscordBot" target="_blank"><h3>Discord Bot</h3></a>
@@ -19,7 +21,7 @@
                     </div>
                 </div>
             </div>
-            <div class="box" tag="commendable">
+            <div class="box" id="commendable">
                 <div class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
                 <div class="content">
                     <a href="https://github.com/Simple2006/MCIGN-Sniper" target="_blank"><h3>Minecraft IGN Sniper</h3></a>
@@ -28,7 +30,7 @@
                     </div>
                 </div>
             </div>
-            <div class="box">
+            <div class="box notHard">
                 <div class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
                 <div class="content">
                     <a href="https://github.com/Simple2006/HomeworkSolver" target="_blank"><h3>Homework Solver</h3></a>
@@ -37,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <div class="box">
+            <div class="box notHard">
                 <div class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
                 <div class="content">
                     <a href="https://github.com/Simple2006/Message-Encrypter" target="_blank"><h3>Message Encrypter</h3></a>
@@ -46,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="box">
+            <div class="box notHard">
                 <div class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
                 <div class="content">
                     <a href="https://github.com/Simple2006/proxy-checker" target="_blank"><h3>Proxy Validator</h3></a>
@@ -55,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            <div class="box">
+            <div class="box notHard">
                 <div class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
                 <div class="content">
                     <a href="https://github.com/Simple2006/PigLatinConverter" target="_blank"><h3>Pig Latin Converter</h3></a>
@@ -64,7 +66,7 @@
                     </div>
                 </div>
             </div>
-            <div class="box">
+            <div class="box notHard">
                 <div class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
                 <div class="content">
                     <a href="https://github.com/Simple2006/Kotlin-Calc-Adv" target="_blank"><h3>Kotlin Calculator</h3></a>
@@ -73,7 +75,7 @@
                     </div>
                 </div>
             </div>
-            <div class="box" tag="commendable">
+            <div class="box" id="commendable">
                 <div class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
                 <div class="content">
                     <a href="https://github.com/Simple2006/PySQLDataBase" target="_blank"><h3>SQL Database</h3></a>
@@ -82,7 +84,7 @@
                     </div>
                 </div>
             </div>
-            <div class="box" tag="commendable">
+            <div class="box" id="commendable">
                 <div class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
                 <div class="content">
                     <a href="https://github.com/Simple2006/DankMemerCoinFarmer" target="_blank"><h3>Dank Memer Coin Farmer</h3></a>
@@ -91,7 +93,7 @@
                     </div>
                 </div>
             </div>
-            <div class="box">
+            <div class="box notHard">
                 <div class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
                 <div class="content">
                     <a href="https://github.com/Simple2006/logindb" target="_blank"><h3>TextFile DataBase</h3></a>
@@ -100,7 +102,7 @@
                     </div>
                 </div>
             </div>
-            <div class="box" tag="commendable">
+            <div class="box" id="commendable">
                 <div class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
                 <div class="content">
                     <a href="https://github.com/Simple2006/simple2006.github.io" target="_blank"><h3>Simple's Website</h3></a>
@@ -120,7 +122,8 @@
                 </div>
             </div>
         -->
-            <div class="mysection">
+            <div id="mySidebar" class="sidebar">
+                <div id="closebtn" class="closebtn" onclick="closeNav()">&times;</div>
                 <div class="content">
                     <h3 style="color:white">Who am I?</h3>
                     <p style="color: white">A high school student graduating in 2024 with a passion for primates and programming. 
@@ -140,7 +143,9 @@
                     </div>                    
                 </div>
             </div>
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+              </div>
         </div>
-        <script src="hideID.js"></script>
     <body>
 </html>

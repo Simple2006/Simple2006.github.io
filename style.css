@@ -14,6 +14,29 @@ a:link {
     border-bottom: 1rem solid #fff;
     padding-bottom: 5rem;
 }
+.hardButton
+{
+    position: absolute;
+    cursor: pointer;
+    background-color: rgb(65, 61, 61);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    left: 8%;
+    top: 0%;
+    margin: 0;
+}
+/*
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*/
+.hardButton:hover
+{
+    background-color: #444;
+}
 .container
 {
     position: relative;
@@ -133,7 +156,7 @@ a:link {
     width: 10px;
     border-radius: 100%;
     display: block;
-    right: 65px;
+    right: 75px;
     bottom: 80px;
     border: none;
     z-index: 100;
@@ -150,7 +173,7 @@ a:link {
     width: 10px;
     border-radius: 100%;
     display: block;
-    right: 65px;
+    right: 75px;
     bottom: 150px;
     border: none;
     z-index: 100;
@@ -203,13 +226,7 @@ a:link {
     background: rgb(0, 0, 0);
 }
 */
-.container .checkmark
-{
-    position: absolute;
-    left: 20px;
-    top: -200px;
-}
-.container .mysection 
+.sidebar 
 {
     position: fixed;
     right: 1px;
@@ -220,8 +237,11 @@ a:link {
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
     padding-left: 1%;
     padding-top: 1%;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
 }
-.container .mysection .content h3
+.sidebar .content h3
 {
     left: 20px;
     font-size: 40px;
@@ -229,14 +249,14 @@ a:link {
     font-family: Consolas, monaco, monospace;
     font-weight: 500px;
 }
-.container .mysection .content p
+.sidebar .content p
 {
     left: 20px;
     top: 70px;
     font-family: Consolas, monaco, monospace;
     font-size: 25px;
 }
-.container .mysection .content h4
+.sidebar .content h4
 {
     left: 20px;
     font-size: 40px;
@@ -244,14 +264,14 @@ a:link {
     font-family: Consolas, monaco, monospace;
     font-weight: 200px;
 }
-.container .mysection .content ul
+.sidebar .content ul
 {
     left: 10px;
     top: 400px;
     font-family: Consolas, monaco, monospace; 
     font-size: 25px;
 }
-.container .mysection .content h1
+.sidebar .content h1
 {
     left: 20px;
     top: 570px;
@@ -259,18 +279,52 @@ a:link {
     font-size: 40px;
     font-weight: 200px;
 }
-.container .mysection .content .seclist ul 
+.sidebar .content .seclist ul 
 {
     left: 40px;
     top: 625px;
     font-family: Consolas, monaco, monospace;
     font-size: 25px;
 }
-.container .mysection .content:hover .seclist ul
+.sidebar .content:hover .seclist ul
 {
     color: rgb(32, 99, 224);
     background-color: transparent;
     text-decoration: underline;
+}
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #0d7bd4;
+}
+.sidebar .closebtn:hover {
+    color: rgb(48, 153, 202);
+}
+.openbtn {
+    position: fixed;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(65, 61, 61);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    right: 15.2%;
+    bottom: 3%;
+    z-index: 100;
+}
+.openbtn:hover {
+    background-color: #444;
+}
+#main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+}
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
 }
 /*
 .container .checkmarkTab
@@ -412,11 +466,17 @@ a:link {
 }
 .container .box:nth-child(8) .icon
 {
-    background: #ac0b0b;
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 .container .box:nth-child(8)
 {
-    background: #df3b3b;
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 .container .box:nth-child(9) .icon
 {
@@ -453,4 +513,4 @@ a:link {
     background: -o-linear-gradient(bottom right, red, blue); 
     background: -moz-linear-gradient(bottom right, red, blue);
     background: linear-gradient(to bottom right, red , blue); 
-} 
+}
