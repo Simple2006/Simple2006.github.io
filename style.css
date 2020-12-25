@@ -145,6 +145,7 @@ a:link {
     transform: scale(1.2);
     background: rgb(0, 0, 0);
 }
+  
 /*.container .smallbox1
 {
     position: fixed;
@@ -319,7 +320,7 @@ a:link {
     }
 }
 
-.container .row .box:nth-child(1) .icon
+.container .box:nth-child(1) .icon
 {
     background: -webkit-linear-gradient(left top, #BB377D , #FBD3E9); 
     background: -o-linear-gradient(bottom right, #BB377D,#FBD3E9); 
@@ -336,14 +337,14 @@ a:link {
 .container .box:nth-child(2) .icon
 {
     background: -webkit-linear-gradient(left top,#DBD5A4 , #649173); 
-    background: -o-linear-gradient(bottom right, #DBD5A4#649173); 
+    background: -o-linear-gradient(bottom right, #DBD5A4,#649173); 
     background: -moz-linear-gradient(bottom right, #DBD5A4,#649173);
     background: linear-gradient(to bottom right,#DBD5A4 , #649173); 
 }
 .container .box:nth-child(2)
 {
     background: -webkit-linear-gradient(left top,#DBD5A4 , #649173); 
-    background: -o-linear-gradient(bottom right, #DBD5A4#649173); 
+    background: -o-linear-gradient(bottom right, #DBD5A4,#649173); 
     background: -moz-linear-gradient(bottom right, #DBD5A4,#649173);
     background: linear-gradient(to bottom right,#DBD5A4 , #649173); 
 }
