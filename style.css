@@ -311,8 +311,8 @@ a:link {
     color: white;
     padding: 10px 15px;
     border: none;
-    right: 15%;
-    bottom: 30px;
+    right:calc(27.5rem - 176px);
+    bottom: 20px;
     z-index: 100;
 }
 .openbtn:hover {
