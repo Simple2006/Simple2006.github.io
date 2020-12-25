@@ -133,8 +133,8 @@ a:link {
     width: 10px;
     border-radius: 100%;
     display: block;
-    right: 70px;
-    top: 810px;
+    right: 65px;
+    top: 80px;
     border: none;
     z-index: 100;
 }
@@ -150,8 +150,8 @@ a:link {
     width: 10px;
     border-radius: 100%;
     display: block;
-    right: 70px;
-    top: 740px;
+    right: 65px;
+    top: 10px;
     border: none;
     z-index: 100;
 }
