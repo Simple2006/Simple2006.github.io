@@ -51,4 +51,8 @@ function showSchool() {
         }
         hidden.style.display = "none";
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 65a6ec86f396621003e5b094306d815f941a4be2
