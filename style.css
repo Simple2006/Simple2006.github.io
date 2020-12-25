@@ -14,29 +14,110 @@ a:link {
     border-bottom: 1rem solid #fff;
     padding-bottom: 5rem;
 }
+.nothingFound
+{
+    position: fixed;
+    color:white;
+    top: 40%;
+    left:16%;
+    font-size: 100px;
+    display: none;
+}
 .hardButton
 {
     position: absolute;
+    border: none;
     cursor: pointer;
+    width: 224px;
     background-color: rgb(65, 61, 61);
     color: white;
-    padding: 10px 15px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     border: none;
-    left: 8%;
+    left: 9.5%;
     top: 0%;
-    margin: 0;
+    margin: 4px 2px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 /*
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
+.hardButton {background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%)}
+.hardButton {
+    position: absolute;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;           
+    border-radius: 16px;
+    box-shadow: 0 0 3px #eee;
+    width: 235px;
+    top:0%;
+    left: 9%;
+ }
+
+ .hardButton:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+ }
+ .schoolButton {background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%)}
+ .schoolButton {
+     position: absolute;
+     margin: 10px;
+     padding: 5px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;           
+     border-radius: 16px;
+     box-shadow: 0 0 3px #eee;
+     width: 235px;
+     top:0%;
+     left: 26.7%;
+  }
+ 
+  .schoolButton:hover {
+     background-position: right center; 
+     color: #fff;
+     text-decoration: none;
+  }
 */
+.schoolButton
+{
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    width: 224px;
+    background-color: rgb(65, 61, 61);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    left: 26.7%;
+    top: 0%;
+    margin: 4px 2px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.schoolButton:hover
+{
+    background-color: #444;
+}
 .hardButton:hover
 {
     background-color: #444;
 }
+
 .container
 {
     position: relative;
@@ -243,46 +324,34 @@ a:link {
 }
 .sidebar .content h3
 {
-    left: 20px;
     font-size: 40px;
-    top: -20px;
     font-family: Consolas, monaco, monospace;
     font-weight: 500px;
 }
 .sidebar .content p
 {
-    left: 20px;
-    top: 70px;
     font-family: Consolas, monaco, monospace;
     font-size: 25px;
 }
 .sidebar .content h4
 {
-    left: 20px;
     font-size: 40px;
-    top: 320px;
     font-family: Consolas, monaco, monospace;
     font-weight: 200px;
 }
 .sidebar .content ul
 {
-    left: 10px;
-    top: 400px;
     font-family: Consolas, monaco, monospace; 
     font-size: 25px;
 }
 .sidebar .content h1
 {
-    left: 20px;
-    top: 570px;
     font-family: Consolas, monaco, monospace;
     font-size: 40px;
     font-weight: 200px;
 }
 .sidebar .content .seclist ul 
 {
-    left: 40px;
-    top: 625px;
     font-family: Consolas, monaco, monospace;
     font-size: 25px;
 }
@@ -412,25 +481,24 @@ a:link {
 }
 .container .box:nth-child(2) .icon
 {
-    background: -webkit-linear-gradient(left top,#DBD5A4 , #649173); 
-    background: -o-linear-gradient(bottom right, #DBD5A4,#649173); 
-    background: -moz-linear-gradient(bottom right, #DBD5A4,#649173);
-    background: linear-gradient(to bottom right,#DBD5A4 , #649173); 
+    background: #c21500;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
 }
 .container .box:nth-child(2)
 {
-    background: -webkit-linear-gradient(left top,#DBD5A4 , #649173); 
-    background: -o-linear-gradient(bottom right, #DBD5A4,#649173); 
-    background: -moz-linear-gradient(bottom right, #DBD5A4,#649173);
-    background: linear-gradient(to bottom right,#DBD5A4 , #649173); 
+    background: #c21500;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 .container .box:nth-child(3) .icon
 {
-    background: #23798e;
+    background-image: linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% );
 }
 .container .box:nth-child(3)
 {
-    background: #328fa5;
+    background-image: linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% );
 }
 .container .box:nth-child(4) .icon
 {
