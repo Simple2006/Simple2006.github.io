@@ -1,3 +1,13 @@
+const splash = document.querySelector(".scene");
+
+document.addEventListener("DOMContentLoaded", (e)=>{
+    setTimeout(()=>{
+        splash.classList.add("display-none");
+    }, 2000);
+})
+
+
+
 function openNav() {
     document.getElementById("mySidebar").style.width = "28rem";
     document.getElementById("main").style.marginLeft = "250px";
