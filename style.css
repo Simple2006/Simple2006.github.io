@@ -20,7 +20,8 @@ body
     text-align: center;
     padding-top: 25%;
     overflow: hidden;
-    background-image: url('stars.png');
+    background-image: url('https://media.giphy.com/media/l3vRnoppYtfEbemBO/giphy.gif');
+    background-size: cover;
 }
 .scene.display-none
 {
