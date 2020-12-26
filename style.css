@@ -2,7 +2,7 @@
 body
 {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     padding-right: 28rem;
     padding-left: 10rem;
     font-family: sans-serif;
@@ -57,7 +57,7 @@ a:link {
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;           
+    color: white;
     border-radius: 16px;
     box-shadow: 0 0 3px #eee;
     width: 235px;
@@ -79,16 +79,16 @@ a:link {
      text-transform: uppercase;
      transition: 0.5s;
      background-size: 200% auto;
-     color: white;           
+     color: white;
      border-radius: 16px;
      box-shadow: 0 0 3px #eee;
      width: 235px;
      top:0%;
      left: 26.7%;
   }
- 
+
   .schoolButton:hover {
-     background-position: right center; 
+     background-position: right center;
      color: #fff;
      text-decoration: none;
   }
@@ -238,7 +238,7 @@ a:link {
     border-radius: 8px;
     z-index: 100;
 }*/
-.object 
+.object
 {
     position: fixed;
     height: 10px;
@@ -255,7 +255,7 @@ a:link {
     transform: scale(1.1);
     transition: 0.5s;
 }
-.object1 
+.object1
 {
     position: fixed;
     height: 15px;
@@ -279,7 +279,7 @@ a:link {
     transform: scale(1.1);
     background: rgb(0, 0, 0);
 }
-  
+
 /*.container .smallbox1
 {
     position: fixed;
@@ -315,7 +315,7 @@ a:link {
     background: rgb(0, 0, 0);
 }
 */
-.sidebar 
+.sidebar
 {
     position: fixed;
     right: 1px;
@@ -349,7 +349,7 @@ a:link {
 }
 .sidebar .content ul
 {
-    font-family: Consolas, monaco, monospace; 
+    font-family: Consolas, monaco, monospace;
     font-size: 25px;
 }
 .sidebar .content h1
@@ -358,7 +358,7 @@ a:link {
     font-size: 40px;
     font-weight: 200px;
 }
-.sidebar .content .seclist ul 
+.sidebar .content .seclist ul
 {
     font-family: Consolas, monaco, monospace;
     font-size: 25px;
@@ -426,7 +426,7 @@ a:link {
 
 .checkmarkTab label{
      margin: 0px 20px 0px 3px;
-} 
+}
 */
 .line {
     position: relative;
@@ -475,30 +475,30 @@ a:link {
 
 .container .box:nth-child(1) .icon
 {
-    background: -webkit-linear-gradient(left top, #BB377D , #FBD3E9); 
-    background: -o-linear-gradient(bottom right, #BB377D,#FBD3E9); 
-    background: -moz-linear-gradient(bottom right, #BB377D,#FBD3E9);
-    background: linear-gradient(to bottom right, #BB377D , #FBD3E9); 
+  background: -webkit-linear-gradient(left top, red , blue);
+  background: -o-linear-gradient(bottom right, red, blue);
+  background: -moz-linear-gradient(bottom right, red, blue);
+  background: linear-gradient(to bottom right, red , blue);
 }
 .container .box:nth-child(1)
 {
-    background: -webkit-linear-gradient(left top, #BB377D , #FBD3E9); 
-    background: -o-linear-gradient(bottom right, #BB377D,#FBD3E9); 
-    background: -moz-linear-gradient(bottom right, #BB377D,#FBD3E9);
-    background: linear-gradient(to bottom right, #BB377D , #FBD3E9); 
+  background: -webkit-linear-gradient(left top, red , blue);
+  background: -o-linear-gradient(bottom right, red, blue);
+  background: -moz-linear-gradient(bottom right, red, blue);
+  background: linear-gradient(to bottom right, red , blue);
 }
 .container .box:nth-child(2) .icon
 {
     background: #c21500;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+    background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .container .box:nth-child(2)
 {
     background: #c21500;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+
 }
 .container .box:nth-child(3) .icon
 {
@@ -510,27 +510,43 @@ a:link {
 }
 .container .box:nth-child(4) .icon
 {
-    background: #7b139b;
+  background: #5C258D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .container .box:nth-child(4)
 {
-    background: #9836be;
+  background: #5C258D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .container .box:nth-child(5) .icon
 {
-    background: #db0f8d;
+  background: #134E5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .container .box:nth-child(5)
 {
-    background: #d13ab0;
+  background: #134E5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .container .box:nth-child(6) .icon
 {
-    background: #0d7bd4;
+  background: -webkit-linear-gradient(left top, #f2709c , #ff9472);
+  background: -o-linear-gradient(bottom right, #f2709c,#ff9472);
+  background: -moz-linear-gradient(bottom right,#f2709c,#ff9472);
+  background: linear-gradient(to bottom right,#f2709c,#ff9472);
 }
 .container .box:nth-child(6)
 {
-    background: #48b2db;
+  background: -webkit-linear-gradient(left top, #f2709c , #ff9472);
+  background: -o-linear-gradient(bottom right, #f2709c,#ff9472);
+  background: -moz-linear-gradient(bottom right,#f2709c,#ff9472);
+  background: linear-gradient(to bottom right,#f2709c,#ff9472);
 }
 .container .box:nth-child(7) .icon
 {
@@ -542,31 +558,19 @@ a:link {
 }
 .container .box:nth-child(8) .icon
 {
-    background: #5C258D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #7b139b;
 }
 .container .box:nth-child(8)
 {
-    background: #5C258D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+     background: #9836be;
 }
 .container .box:nth-child(9) .icon
 {
-    background: -webkit-linear-gradient(left top, #f2709c , #ff9472); 
-    background: -o-linear-gradient(bottom right, #f2709c,#ff9472); 
-    background: -moz-linear-gradient(bottom right,#f2709c,#ff9472);
-    background: linear-gradient(to bottom right,#f2709c,#ff9472); 
+    background: #0d7bd4;
 }
 .container .box:nth-child(9)
 {
-    background: -webkit-linear-gradient(left top, #f2709c , #ff9472); 
-    background: -o-linear-gradient(bottom right, #f2709c,#ff9472); 
-    background: -moz-linear-gradient(bottom right,#f2709c,#ff9472);
-    background: linear-gradient(to bottom right,#f2709c,#ff9472); 
+    background: #48b2db;
 }
 .container .box:nth-child(10) .icon
 {
@@ -578,15 +582,9 @@ a:link {
 }
 .container .box:nth-child(11) .icon
 {
-    background: -webkit-linear-gradient(left top, red , blue); 
-    background: -o-linear-gradient(bottom right, red, blue); 
-    background: -moz-linear-gradient(bottom right, red, blue);
-    background: linear-gradient(to bottom right, red , blue); 
+    background: #db0f8d;
 }
 .container .box:nth-child(11)
 {
-    background: -webkit-linear-gradient(left top, red , blue); 
-    background: -o-linear-gradient(bottom right, red, blue); 
-    background: -moz-linear-gradient(bottom right, red, blue);
-    background: linear-gradient(to bottom right, red , blue); 
+    background: #d13ab0;
 }
