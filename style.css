@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 body
 {
+    display: flex;
     margin: 0;
     padding: 0;
     padding-right: 28rem;
@@ -13,6 +14,28 @@ a:link {
     text-decoration: none;
     border-bottom: 1rem solid #fff;
     padding-bottom: 5rem;
+}
+.randomColor
+{
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  width: 180px;
+  background-color: rgb(65, 61, 61);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  left: 0.4%;
+  top: 22%;
+  margin: 4px 0px;
+  margin: 4px 2px;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 43px;
 }
 .nothingFound
 {
@@ -28,7 +51,7 @@ a:link {
     position: absolute;
     border: none;
     cursor: pointer;
-    width: 224px;
+    width: 180px;
     background-color: rgb(65, 61, 61);
     color: white;
     padding: 20px;
@@ -36,13 +59,10 @@ a:link {
     text-decoration: none;
     display: inline-block;
     border: none;
-    left: 9.5%;
-    top: 0%;
-<<<<<<< HEAD
+    left: 0.4%;
+    top: 10%;
     margin: 4px 0px;
-=======
     margin: 4px 2px;
->>>>>>> 65a6ec86f396621003e5b094306d815f941a4be2
     border-radius: 20px;
     padding-top: 5px;
     padding-bottom: 10px;
@@ -98,7 +118,7 @@ a:link {
     position: absolute;
     border: none;
     cursor: pointer;
-    width: 224px;
+    width: 130px;
     background-color: rgb(65, 61, 61);
     color: white;
     padding: 20px;
@@ -106,16 +126,14 @@ a:link {
     text-decoration: none;
     display: inline-block;
     border: none;
-    left: 26.7%;
-    top: 0%;
-<<<<<<< HEAD
+    left: 0.4%;
+    top: 16%;
     margin: 4px 30px;
-=======
     margin: 4px 2px;
->>>>>>> 65a6ec86f396621003e5b094306d815f941a4be2
     border-radius: 20px;
     padding-top: 5px;
     padding-bottom: 10px;
+    padding-right: 25px;
 }
 .schoolButton:hover
 {
@@ -137,12 +155,12 @@ a:link {
 {
     position: relative;
     width: calc(250px - 30px);
-    top: -10em;
+    top: -10.5em;
     height: calc(300px - 30px);
-    left: -50px;
+    left: 1%;
     background: #000;
     float: left;
-    margin: 15px;
+    margin: 20px;
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 10px;
