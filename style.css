@@ -8,6 +8,63 @@ body
     padding-left: 10rem;
     font-family: sans-serif;
 }
+.scene
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    z-index: 200;
+    text-align: center;
+    padding-top: 25%;
+    overflow: hidden;
+}
+.scene.display-none
+{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    z-index: -10;
+    color: white;
+    padding-top: 25%;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.7s;
+}
+.scene .rocket{
+    position: relative;
+    /*opacity: 0;*/
+    z-index: 100;
+    bottom: 20%;
+    animation: animate 0.2s ease infinite;;
+}
+.scene .fire
+{
+    position: absolute;
+    left: 49.65%;
+    bottom: 29%;
+    width: 10px;
+    height: 200px;
+    background: linear-gradient(#00d0ff,transparent);
+    filter: blur(5px);
+}
+@keyframes animate
+{
+    0%,100%
+    {
+        transform: translateY(-2px);
+    }
+    50%
+    {
+        transform: translateY(2px);
+    }
+}
 a:link {
     color: rgb(32, 99, 224);
     background-color: transparent;
@@ -15,31 +72,6 @@ a:link {
     border-bottom: 1rem solid #fff;
     padding-bottom: 5rem;
 }
-.splash
-{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: black;
-  z-index: 200;
-  color: white;
-  text-align: center;
-  line-height: 90vh;
-}
-
-@keyframes fadeIn {
-  to{
-    opacity: 1;
-  }
-}
-
-.fade-in {
-  opacity: 0;
-  animation: fadeIn 1s ease-in forwards;
-}
-
 .nothingFound
 {
     position: fixed;
