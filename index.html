@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 
 <body id="page-top" style="background: rgb(0,0,0);"><a class="menu-toggle rounded" href="#"><i class="fa fa-bars"></i></a>
@@ -27,6 +28,7 @@
                     <li class="nav-item sidebar-brand"><a class="nav-link active">Menu</a></li>
                     <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Home</a></li>
                     <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a></li>
+                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#language">Favorite Languages</a></li>
                     <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -51,15 +53,38 @@
                             <div class="caption" style="border-left-color: rgb(255,255,255);background: rgba(255,255,255,0.2);">
                                 <div class="caption-content" style="color: rgb(0,0,0);">
                                     <h2 style="font-size: 38px;">VoiceNotes</h2>
+                                    <p>In Progress | Closed Source</p>
                                     <p class="mb-0" style="color: rgb(0,0,0);"><strong>VoiceNotes is an iOS application created to help students with learning disabilities. The incapability to understand speech is a serious issue for students with learning impairments. VoiceNote helps solve that problem with its ability to convert speech to text and save notes efficiently.</strong></p>
                                 </div>
                             </div>
                         </a></div>
-                    <div class="col-lg-6"><a class="portfolio-item" style="background: #dedede;padding-top: 345px;height: 408px;border-right-color: rgb(0,0,0);border-left-color: rgb(0,0,0);">
-                            <div class="caption" style="opacity: 1;filter: brightness(100%);background: rgb(222,222,222);height: 408px;margin-top: 1px;padding-top: 0px;border-right: 0px solid rgb(0,0,0);border-left: 0px solid rgb(0,0,0);">
-                                <div class="caption-content">
-                                    <h2 style="padding-top: 0px;font-size: 38px;color: rgb(0,0,0);height: 155px;">Gun Detection</h2>
-                                    <p class="mb-0" style="color: rgb(0,0,0);height: 174px;margin-top: -89px;"><strong>An Object Detection program utilizing Artificial Intelligence concepts such as Convolutional Neural Networks (CNN) to identify firearms in real time video using the YOLO algorithm aiming to improve school security.</strong></p>
+                   <div class="col-lg-6"><a class="portfolio-item" style="filter: brightness(87%);padding-top: 345px;background: rgb(255,255,255);height: 408px;border-right: 1px solid rgb(0,0,0) ;border-left-color: rgb(0,0,0);">
+                            <div class="caption" style="border-left-color: rgb(255,255,255);background: rgba(255,255,255,0.2);">
+                                <div class="caption-content" style="color: rgb(0,0,0);">
+                                    <h2 style="font-size: 38px;">ArmVision</h2>
+                                    <p>In Progress | Closed Source</p>
+                                    <p class="mb-0" style="color: rgb(0,0,0);"><strong>ArmVision is an Object Detection program utilizing Artificial Intelligence (AI) concepts such as Convolutional Neural Networks (CNNs) to identify firearms in real time video using the You Only Look Once (YOLO) algorithm aiming to reduce casualties caused by gun violence as well as put a stop to them before they occur.</strong></p>
+                                </div>
+                            </div>
+                        </a></div>
+                   <div class="col-lg-6"><a class="portfolio-item" style="filter: brightness(87%);padding-top: 345px;background: rgb(255,255,255);height: 408px;border-right: 1px solid rgb(0,0,0) ;border-left-color: rgb(0,0,0);border-top: 1px solid rgb(0,0,0);">
+                            <div class="caption" style="border-left-color: rgb(255,255,255);background: rgba(255,255,255,0.2);">
+                                <div class="caption-content" style="color: rgb(0,0,0);">
+                                    <h2 style="font-size: 38px;">libmaths</h2>
+                                    <i class="icon-github icon-3x" onclick="gitredirect()"></i>
+                                    <i class="icon-download-alt icon-3x" style="padding-left:10px;" onclick="pypiredirect()"></i>
+                                    <p class="mb-0" style="color: rgb(0,0,0);"><strong>libmaths was created not only as a learning experience for me, but as a way to make mathematical models in seconds for Python users using math in their code. With pre-programmed mathematical functions ranging from linear to sextic and more, graphing in your code will be a breeze.
+
+                                    </strong></p>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-6"><a class="portfolio-item" style="filter: brightness(87%);padding-top: 350px;background: rgb(255,255,255);height: 408px;border-right: 1px solid rgb(0,0,0) ;border-left-color: rgb(0,0,0);border-top: 1px solid rgb(0,0,0);">
+                            <div class="caption" style="border-left-color: rgb(255,255,255);background: rgba(255,255,255,0.2);">
+                                <div class="caption-content" style="color: rgb(0,0,0);">
+                                    <h2 style="font-size: 38px;">TradeAlgo</h2>
+                                    <p>Closed Source</p>
+                                    <p class="mb-0" style="color: rgb(0,0,0);"><strong>TradeAlgo is a quantitative trading algorithm using the TD Ameritrade API and several data sources to place educated orders on penny stocks.<br><br>Big Hits: OCGN ($0.69), EPWCF ($0.54), and ZOM ($1.02)</strong></p>
                                 </div>
                             </div>
                         </a></div>
@@ -72,7 +97,7 @@
                 <h3 class="text-secondary mb-0" style="margin-top: 125px;">Languages</h3>
                 <h2 class="mb-5">My Favorite Languages</h2>
             </div>
-            <div class="row">
+            <div class="row" id="language">
                 <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3" style="padding: 1px;"><img src="assets/img/python-original.svg" style="margin: 0px;height: 110px;"></span>
                     <h4><strong>Python</strong></h4>
                     <p class="mb-0 text-faded">Python is my favorite language and I love using it for Machine Learning projects.<br></p>
@@ -89,6 +114,10 @@
                     <h4><strong>HTML/CSS</strong></h4>
                     <p class="mb-0 text-faded">HTML and CSS are languages that are crucial for web development. With my interest in web development, I have found HTML and CSS to be simple, yet powerful tools.</p>
                 </div>
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3" style="padding: 1px;"><img src="assets/img/go-logo-blue.svg" style="margin-top: -15px;height: 38px;"></span>
+                    <h4><strong>Go</strong></h4>
+                    <p class="mb-0 text-faded">I recently started using Go and It's an amazing language. (It might take Python's place as my favorite language soon.)<br></p>
+                </div>
             </div>
         </div>
     </section>
@@ -98,8 +127,8 @@
             <h3 class="text-secondary mb-0" style="font-size: 16px;margin-top: 29px;">CONTACTS</h3>
             <ul class="list-inline mb-5" id="contact">
                 <li class="list-inline-item">&nbsp;</li>
-                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="https://www.linkedin.com/in/vinayven"><i class="icon-social-linkedin"></i></a></li>
-                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="https://www.github.com/Simple2006"><i class="icon-social-github"></i></a></li>
+                <li class="list-inline-item" style="padding-top: 15px;">&nbsp;<a href="https://www.linkedin.com/in/vinayven" target="_blank"><i class="icon-linkedin icon-3x"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a href="https://www.github.com/Simple2006" target="_blank"><i class="icon-github icon-3x"></i></a></li>
             </ul>
         </div><a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a>
     </footer>
@@ -107,6 +136,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/extra.js"></script>
 </body>
 
 </html>
