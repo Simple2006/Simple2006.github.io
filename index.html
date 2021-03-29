@@ -28,6 +28,8 @@
                     <li class="nav-item sidebar-brand"><a class="nav-link active">Menu</a></li>
                     <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Home</a></li>
                     <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a></li>
+                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#workexp">Work Experience</a></li>
+                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#language">Favorite Languages</a></li>
                     <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="https://files.vinayven.com" target="_blank">Server</a></li>
                 </ul>
@@ -47,7 +49,7 @@
             </ul>
         </div><img class="logo" src="assets/img/logo.png" style="height: 40px;margin-right: 18px;margin-top: -30px;"></a>
     </header>
-    <section id="services" class="content-section bg-primary text-white text-center" style="background: linear-gradient(white 0%, black 0%), rgb(0,0,0);margin-top: -90px;">
+    <section class="content-section bg-primary text-white text-center" style="background: linear-gradient(white 0%, black 0%), rgb(0,0,0);margin-top: -90px;">
         <section id="portfolio" class="content-section" style="background: #000000;margin-bottom: 0px;margin-top: -144px;">
             <div class="container">
                 <div class="content-section-heading text-center">
@@ -59,7 +61,7 @@
                             <div class="caption" style="border-left-color: rgb(255,255,255);background: rgba(255,255,255,0.2);">
                                 <div class="caption-content" style="color: rgb(0,0,0);">
                                     <h2 style="font-size: 38px;">VoiceNotes</h2>
-                                    <p>In Progress | Closed Source</p>
+                                    <i class="fa fa-github fa-3x" aria-hidden="true" onclick="voicenotesredirect()"></i>
                                     <p class="mb-0" style="color: rgb(0,0,0);"><strong>VoiceNotes is an iOS application created to help students with learning disabilities. The incapability to understand speech is a serious issue for students with learning impairments. VoiceNote helps solve that problem with its ability to convert speech to text and save notes efficiently.</strong></p>
                                 </div>
                             </div>
@@ -68,7 +70,7 @@
                             <div class="caption" style="border-left-color: rgb(255,255,255);background: rgba(255,255,255,0.2);">
                                 <div class="caption-content" style="color: rgb(0,0,0);">
                                     <h2 style="font-size: 38px;">ArmVision</h2>
-                                    <p>In Progress | Closed Source</p>
+                                    <i class="fa fa-github fa-3x" aria-hidden="true" onclick="armvisionredirect()"></i>
                                     <p class="mb-0" style="color: rgb(0,0,0);"><strong>ArmVision is an Object Detection program utilizing Artificial Intelligence (AI) concepts such as Convolutional Neural Networks (CNNs) to identify firearms in real time video using the You Only Look Once (YOLO) algorithm aiming to reduce casualties caused by gun violence as well as put a stop to them before they occur.</strong></p>
                                 </div>
                             </div>
@@ -96,8 +98,58 @@
                         </a></div>
                 </div>
             </div>
-            <a href="https://www.github.com/Simple2006" target="_blank"><h2 class="mb-4" style="padding-bottom: -12px;margin: 83px;">More Projects Can be Found on my GitHub</h2></a>
-        </section>
+            <a href="https://www.github.com/Simple2006" target="_blank"><h2 class="mb-4" style="padding-bottom: -12px;margin: 50px;">More Projects Can be Found on my GitHub</h2></a>
+
+        <div class="container" id="workexp">
+            <div class="content-section-heading">
+                <h3 class="text-secondary mb-0" style="margin-top: 125px;">Work</h3>
+                <h2 class="mb-5">Work Experience</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                    <img src="assets/img/protohacks.png" style="float: left;padding-bottom: 10px;padding-left: 10px;height: 100px;width: 100px;">
+                    <h4 style="white-space: nowrap;margin-right: 13px;">&nbsp;&nbsp;ProtoHacks</h4>
+                    <p style="white-space: nowrap;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ProtoHacks is a hackathon that I co-founded. I market ProtoHacks via social media and emails, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;develop the ProtoHacks website with HTML, CSS, and JavaScript, and pursue funding from sponsors.</p>
+                </div>
+            </div>
+            <div style="border-left: dotted thick gray;"><br><br><br><br><br></div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                    <img src="assets/img/funkymonkeys.jpg" style="float: left;padding-top: 10px;padding-left: 10px;height: 100px;width: 100px;">
+                    <h4 style="white-space: nowrap;padding-top: 8px;">&nbsp;&nbsp;Lynbrook High School FRC Team 846</h4>
+                    <p style="white-space: nowrap;">&nbsp;&nbsp;&nbsp;I helped create a dashboard with HTML, CSS, and JavaScript to control robot settings. <br>&nbsp;&nbsp;&nbsp;I also read and write Scala and Koltin code to develop software for a competition level robot.</p>
+                </div>
+            </div>
+            <div style="border-left: dotted thick gray;"><br><br><br><br><br></div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                    <img src="assets/img/inspirit.png" style="float: left;padding-top: 10px;padding-bottom: 10px;padding-left: 10px;">
+                    <h4 style="white-space: nowrap;padding-top: 8px;">&nbsp;&nbsp;Inspirit AI Fellow</h4>
+                    <p style="white-space: nowrap;">&nbsp;&nbsp;&nbsp;I contacted schools, clubs, and people to promote Inspirit AI and learned <br>&nbsp;&nbsp;&nbsp;valuable leadership skills through presentations from prestigious university students.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="education">
+            <div class="content-section-heading">
+                <h3 class="text-secondary mb-0" style="margin-top: 125px;">Education</h3>
+                <h2 class="mb-5">Education</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                    <img src="assets/img/lhs.jpg" style="float: left;padding-bottom: 10px;padding-left: 10px;">
+                    <h4 style="white-space: nowrap;">&nbsp;&nbsp;Lynbrook High School</h4>
+                    <p style="white-space: nowrap;">&nbsp;&nbsp;&nbsp;Member of the Japanese National Honor Society and Robotics Club.</p>
+                </div>
+            </div>
+            <div style="border-left: dotted thick gray;"><br><br><br><br><br></div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                    <img src="assets/img/lgrc.jpg" style="float: left;padding-top: 10px;padding-left: 10px;">
+                    <h4 style="white-space: nowrap;padding-top: 8px;">&nbsp;&nbsp;Los Gatos Rowing Club</h4>
+                    <p style="white-space: nowrap;">&nbsp;&nbsp;&nbsp;Member of the Los Gatos Rowing Club Novice Men Team.</p>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="content-section-heading">
                 <h3 class="text-secondary mb-0" style="margin-top: 125px;">Languages</h3>
@@ -125,7 +177,7 @@
                     <p class="mb-0 text-faded">I started using Go and It's an amazing language. Although the language is a bit complex, the efficiency of the language is an amazing tradeoff.<br></p>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3" style="padding: 1px;"><img src="assets/img/javascript.png" style="margin-top: -18px;height: 70px;"></span>
-                    <h4><strong>JavsScript</strong></h4>
+                    <h4><strong>JavaScript</strong></h4>
                     <p class="mb-0 text-faded">JavaScript is an amazing tool for website development and I don't know what I'd do without it.<br></p>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3" style="padding: 1px;"><img src="assets/img/csharp.png" style="margin-top: -25px;height:160px;margin-left: -24px;"></span>
