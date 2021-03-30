@@ -13,3 +13,54 @@ function armvisionredirect() {
 function voicenotesredirect() {
     window.open("https://github.com/Simple2006/voicenotes", "_blank")
 }
+
+function fetchocgn() {
+    const symbol = "OCGN";
+    const apikey = "c1hbkav48v6t9ghtre6g";
+
+    const options = {
+        method: 'GET',
+        url: `https://finnhub.io/api/v1/quote?symbol=${symbol}&token=${apikey}`
+    };
+
+    axios.request(options).then(function (response) {
+        //console.log(response.data["c"]);
+        alert("$OCGN Stock Price Is: $" + response.data["c"]);
+    }).catch(function (error) {
+        console.error(error);
+    });
+}
+
+function fetchepwcf() {
+    const symbol = "EPWCF";
+    const apikey = "c1hbkav48v6t9ghtre6g";
+
+    const options = {
+        method: 'GET',
+        url: `https://finnhub.io/api/v1/quote?symbol=${symbol}&token=${apikey}`
+    };
+
+    axios.request(options).then(function (response) {
+        //console.log(response.data["c"]);
+        alert("$EPWCF Stock Price Is: $" + response.data["c"]);
+    }).catch(function (error) {
+        console.error(error);
+    });
+}
+
+function fetchzom() {
+    const symbol = "ZOM";
+    const apikey = "c1hbkav48v6t9ghtre6g";
+
+    const options = {
+        method: 'GET',
+        url: `https://finnhub.io/api/v1/quote?symbol=${symbol}&token=${apikey}`
+    };
+
+    axios.request(options).then(function (response) {
+        //console.log(response.data["c"]);
+        alert("$ZOM Stock Price Is: $" + response.data["c"]);
+    }).catch(function (error) {
+        console.error(error);
+    });
+}

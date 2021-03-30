@@ -55,6 +55,17 @@ a, a:hover, a:active, a:visited {color: white;text-decoration: none}
 #workexp #work3:hover {
     font-size: 20px;
 }
+#workexp #work4 img {
+    filter: opacity(0.75);
+    transition: filter 0.5s ease;
+}
+#workexp #work4 img:hover {
+    filter: opacity(1);
+}
+#workexp #work4:hover {
+    font-size: 20px;
+}
+
 #workexp .row h4 {
     text-align: left;
     padding: 0;

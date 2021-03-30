@@ -92,7 +92,7 @@
                                 <div class="caption-content" style="color: rgb(0,0,0);">
                                     <h2 style="font-size: 38px;">TradeAlgo</h2>
                                     <p>Closed Source</p>
-                                    <p class="mb-0" style="color: rgb(0,0,0);"><strong>TradeAlgo is a quantitative trading algorithm using the TD Ameritrade API and several data sources to place educated orders on penny stocks.<br><br>Big Hits: OCGN ($0.69), EPWCF ($0.54), and ZOM ($1.02)</strong></p>
+                                    <p class="mb-0" style="color: rgb(0,0,0);"><strong>TradeAlgo is a quantitative trading algorithm using the TD Ameritrade API and several data sources to place educated orders on penny stocks.<br><br>Big Hits: <button onclick="fetchocgn()">OCGN</button>, <button onclick="fetchepwcf()">EPWCF</button>, and &nbsp;<button onclick="fetchzom()">ZOM</button></strong></p>
                                 </div>
                             </div>
                         </a></div>
@@ -123,9 +123,17 @@
             <div class="separate" style="border-left: dotted thick gray;"><br><br><br><br><br></div>
             <div class="row" id="work3">
                 <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-                    <img src="assets/img/inspirit.png" style="float: left;padding-top: 10px;padding-bottom: 10px;padding-left: 10px;">
+                    <img src="assets/img/inspirit.png" style="float: left;padding-top: 10px;padding-left: 10px;height: 100px;width: 100px;">
                     <h4 style="white-space: nowrap;padding-top: 8px;padding-right: 100px;">&nbsp;&nbsp;Inspirit AI Fellow</h4>
                     <p style="white-space: nowrap;">&nbsp;&nbsp;&nbsp;I contacted schools, clubs, and people to promote Inspirit AI and learned <br>&nbsp;&nbsp;&nbsp;valuable leadership skills through presentations from prestigious university students.</p>
+                </div>
+            </div>
+            <div class="separate" style="border-left: dotted thick gray;"><br><br><br><br><br></div>
+            <div class="row" id="work4">
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                    <img src="assets/img/inspirit.png" style="float: left;padding-top: 10px;padding-left: 10px;height: 100px;width: 100px;">
+                    <h4 style="white-space: nowrap;padding-top: 8px;padding-right: 100px;">&nbsp;&nbsp;Inspirit AI Winter 2020</h4>
+                    <p style="white-space: nowrap;">&nbsp;&nbsp;&nbsp;Learned about crucial Artificial Intelligence concepts such as <br>&nbsp;&nbsp;&nbsp;Convolutional Neural Networks, Natural Language Processing, Computer Vision, and more!</p>
                 </div>
             </div>
         </div>
@@ -141,7 +149,7 @@
                     <p style="white-space: nowrap;">&nbsp;&nbsp;&nbsp;Member of the Japanese National Honor Society and Robotics Club.</p>
                 </div>
             </div>
-            <div class="separate"style="border-left: dotted thick gray;"><br><br><br><br><br></div>
+            <div class="separate" style="border-left: dotted thick gray;"><br><br><br><br><br></div>
             <div class="row" id="education2">
                 <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                     <img src="assets/img/lgrc.jpg" style="float: left;padding-top: 10px;padding-left: 10px;">
@@ -187,6 +195,7 @@
             </div>
         </div>
     </section>
+    </section>
     <section class="content-section bg-primary text-white" style="background: linear-gradient(white 0%, black 0%), rgb(0,0,0);margin-top: -177px;"></section>
     <!--<footer class="footer text-center" style="background: #000000;margin-top: -120px;">
         <div class="container">
@@ -202,7 +211,8 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/script.min.js"></script>
-    <script src="assets/js/extra.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="assets/js/extra.js "></script>
 </body>
 
 </html>
