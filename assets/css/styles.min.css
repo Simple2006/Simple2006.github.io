@@ -4,3 +4,58 @@ a, a:hover, a:active, a:visited {color: white;text-decoration: none}
 .verticalLine {
     border-left: thick solid #ff0000;
 }
+#education #education1 img {
+    filter: opacity(0.75);
+    transition: filter 0.5s ease;
+}
+#education #education1 img:hover {
+    filter: opacity(1);
+}
+#education #education1:hover {
+    font-size: 20px;
+}
+#education #education2 img {
+    filter: opacity(0.75);
+    transition: filter 0.5s ease;
+}
+#education #education2 img:hover {
+    filter: opacity(1);
+}
+#education #education2:hover {
+    font-size: 20px;
+}
+
+#workexp #work1 img {
+    filter: opacity(0.75);
+    transition: filter 0.5s ease;
+}
+#workexp #work1 img:hover {
+    filter: opacity(1);
+}
+#workexp #work1:hover {
+    font-size: 20px;
+}
+#workexp #work2 img {
+    filter: opacity(0.75);
+    transition: filter 0.5s ease;
+}
+#workexp #work2 img:hover {
+    filter: opacity(1);
+}
+#workexp #work2:hover {
+    font-size: 20px;
+}
+#workexp #work3 img {
+    filter: opacity(0.75);
+    transition: filter 0.5s ease;
+}
+#workexp #work3 img:hover {
+    filter: opacity(1);
+}
+#workexp #work3:hover {
+    font-size: 20px;
+}
+#workexp .row h4 {
+    text-align: left;
+    padding: 0;
+}
