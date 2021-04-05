@@ -14,17 +14,16 @@ a, a:hover, a:active, a:visited {color: white;text-decoration: none}
 #education #education1:hover {
     font-size: 20px;
 }
-#education #education2 img {
+#workexp #work0 img {
     filter: opacity(0.75);
     transition: filter 0.5s ease;
 }
-#education #education2 img:hover {
+#workexp #work0 img:hover {
     filter: opacity(1);
 }
-#education #education2:hover {
+#workexp #work0:hover {
     font-size: 20px;
 }
-
 #workexp #work1 img {
     filter: opacity(0.75);
     transition: filter 0.5s ease;
@@ -72,6 +71,12 @@ a, a:hover, a:active, a:visited {color: white;text-decoration: none}
 }
 
 @media screen and (max-width: 992px) {
+    .separate {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
     .separate {
         margin-bottom: 40px;
     }

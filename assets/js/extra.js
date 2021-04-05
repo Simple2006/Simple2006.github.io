@@ -14,6 +14,14 @@ function voicenotesredirect() {
     window.open("https://github.com/Simple2006/voicenotes", "_blank")
 }
 
+function covidredirect() {
+    window.open("https://github.com/Simple2006/covidtracker", "_blank")
+}
+
+function covidsiteredirect() {
+    window.open("https://simple2006.github.io/covidtracker", "_blank")
+}
+
 function fetchocgn() {
     const symbol = "OCGN";
     const apikey = "c1hbkav48v6t9ghtre6g";
