@@ -19,7 +19,7 @@ function covidredirect() {
 }
 
 function covidsiteredirect() {
-    window.open("https://simple2006.github.io/covidtracker", "_blank")
+    window.open("https://covidtracker.vinayven.com", "_blank")
 }
 
 function fetchocgn() {
