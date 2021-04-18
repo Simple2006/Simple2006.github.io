@@ -1,9 +1,9 @@
 function gitredirect() {
-    window.open("https://github.com/Simple2006/libmaths", "_blank")
+    window.open("https://github.com/4pz/libmaths", "_blank")
 }
 
 function stockgitredirect() {
-    window.open("https://github.com/Simple2006/TradeAlgo", "_blank")
+    window.open("https://github.com/4pz/TradeAlgo", "_blank")
 }
 
 function pypiredirect() {
@@ -11,15 +11,15 @@ function pypiredirect() {
 }
 
 function armvisionredirect() {
-    window.open("https://github.com/Simple2006/armvision", "_blank")
+    window.open("https://github.com/4pz/armvision", "_blank")
 }
 
 function voicenotesredirect() {
-    window.open("https://github.com/Simple2006/voicenotes", "_blank")
+    window.open("https://github.com/4pz/voicenotes", "_blank")
 }
 
 function covidredirect() {
-    window.open("https://github.com/Simple2006/covidtracker", "_blank")
+    window.open("https://github.com/4pz/covidtracker", "_blank")
 }
 
 function covidsiteredirect() {
